@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="index.js"></script>
+    <main>
+        <div>
+            <div id="upperSection">
+                <h2>Generate a<br><span id="greenHeading">random password</span></h2>
+                <p id="textUnderHeading">Never use an insecure password again.</p>
+            </div>
+            
+            <button id="generatePassword" onclick="generatePasswords()"><i class="fa fa-bolt"></i>Generate passwords</button>
+        </div>
+
+        <div id="generatedPasswords">
+            <div class="innerGeneratedPasswords">
+                <span id="generatedPassword1">Random Password</span>
+                <span id="generatedPassword2">Random Password</span>
+            </div>
+
+            <div class="innerGeneratedPasswords">
+                <span id="generatedPassword3">Random Password</span>
+                <span id="generatedPassword4">Random Password</span>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
