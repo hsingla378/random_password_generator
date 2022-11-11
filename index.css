@@ -1,72 +1,72 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-color: #1C1C1C;
-    color: white;
-    font-family: 'Inter', sans-serif;
-    /* display: flex;
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: "Inter", sans-serif;
+  /* display: flex;
     justify-content: center;
     align-items: center; */
 }
 
-main{
-    background-color: #1F2937;
-    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
-    border: 3px solid white;
-    border-radius: 8px;
-    padding: 30px;
+main {
+  background-color: #1f2937;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 30px;
 
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
-h2{
-    font-size: 40px;
+h2 {
+  font-size: 40px;
 }
 
-#greenHeading{
-    color: #4ADF86;
+#greenHeading {
+  color: #4adf86;
 }
 
-#textUnderHeading{
-    margin: 15px 0px;
-    color: rgb(255, 255, 255);
+#textUnderHeading {
+  margin: 15px 0px;
+  color: rgb(255, 255, 255);
 }
 
-button{
-    padding: 15px 30px;
-    font-size: 16px;
-    background-color: #4ADF86;
-    color: white;
-    border-radius: 8px;
-    margin: 30px 30px 10px 0;
-    border: none;
-    cursor: pointer;
+button {
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: #4adf86;
+  color: white;
+  border-radius: 8px;
+  margin: 30px 30px 10px 0;
+  border: none;
+  cursor: pointer;
 }
 
-button > i{
-    margin-right: 10px;
-    font-size: 18;
-    font-weight: bold;
+button > i {
+  margin-right: 10px;
+  font-size: 18;
+  font-weight: bold;
 }
 
-.innerGeneratedPasswords{
-    text-align: center;
-    margin: 25px 0px 10px 0px;
-    display: flex;
+.innerGeneratedPasswords {
+  text-align: center;
+  margin: 25px 0px 10px 0px;
+  display: flex;
 }
 
-.innerGeneratedPasswords > span{
-    background-color: #273549;
-    color: #4ADF86;
-    border-radius: 8px;
-    padding: 15px 25px;
-    margin-right: 15px;
-    width: 211px;
+.innerGeneratedPasswords > span {
+  background-color: #273549;
+  color: #4adf86;
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-right: 15px;
+  width: 211px;
 }
